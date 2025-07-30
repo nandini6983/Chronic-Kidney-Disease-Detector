@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kidney Disease Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 style="color: rgb(17, 7, 52);"> Chronic Kidney Disease Prediction System</h1>
+        
+        <h3 style="color: rgb(44, 42, 42);">🛡️ Kidney Disease Prevention Tips:</h3>
+        <ul style="font-size: large; color: #000;">
+            <li>Drink plenty of water daily</li>
+            <li>Limit salt and sodium intake</li>
+
+            <li>Exercise regularly to maintain a healthy weight</li>
+
+            <li>Avoid smoking and limit alcohol consumption</li>
+           <li> Don’t ignore symptoms like swelling, fatigue, or changes in urine</li>
+
+            <li> Get tested if you have a family history of kidney disease</li>
+
+              <li>Limit intake of processed and packaged foods</li>
+
+              <li>Keep cholesterol levels in check</li>
+        </ul>
+        <br>
+        <button onclick="window.location.href='/predict'"> Predict</button>
+        <button onclick="window.location.href='/report'">View Report</button>
+    </div>
+</body>
+</html>

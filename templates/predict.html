@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kidney Disease Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Let's Check Your Kidney Health</h2>
+        <form action="/submit" method="POST">
+            {% for field in [
+                'age', 'blood_pressure', 'specific_gravity', 'albumin', 'sugar',
+                'red_blood_cells', 'pus_cell', 'pus_cell_clumps', 'bacteria',
+                'blood_glucose_random', 'blood_urea', 'serum_creatinine', 'sodium',
+                'potassium', 'hemoglobin', 'packed_cell_volume', 'white_blood_cell_count',
+                'red_blood_cell_count', 'hypertension', 'diabetes_mellitus',
+                'coronary_artery_disease', 'appetite', 'pedal_edema', 'anemia'] %}
+                
+                <input type="number" step="any" name="{{ field }}" placeholder="{{ field.replace('_', ' ').capitalize() }}" required>
+
+            {% endfor %}
+             <button type="submit">Predict</button>
+            
+        </form>
+       
+    </div>
+</body>
+</html>

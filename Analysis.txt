@@ -1,0 +1,36 @@
+Milestone 1: 
+Define Problem / Problem Understanding
+
+Activity 1: 
+Define the Core Problem
+Chronic Kidney Disease (CKD) is a growing health concern worldwide, often going unnoticed until it reaches an advanced stage. The key challenge is to develop a machine learning model that can assess a patient's medical information and accurately identify whether they are at risk of CKD. The goal is to support healthcare professionals with a predictive tool that promotes early diagnosis and timely treatment, reducing the chances of the disease progressing to severe stages.
+
+Activity 2:
+ Key Business Needs
+To fulfill the project’s objective, the following business needs have been identified:
+The system must reliably detect CKD based on patient input data.
+It should reduce incorrect predictions, specifically lowering the rates of false positives (predicting disease when it’s not present) and false negatives (failing to detect the disease).
+The model should provide clear explanations for its predictions, making it understandable for doctors and in line with healthcare guidelines.
+A simple and accessible interface is needed for ease of use by medical staff or patients.
+
+Activity 3:
+ Review of Existing Work
+CKD affects an estimated 14% of people globally and is characterized by a slow decline in kidney function. If left untreated, it can lead to End-Stage Renal Disease (ESRD), where patients require dialysis or a kidney transplant. Detecting CKD in its early stages can significantly improve patient care and outcomes.
+Many researchers have developed predictive models for CKD using various techniques. These include traditional machine learning algorithms like random forest, decision trees, and support vector machines, along with newer approaches such as deep learning. These methods have shown promise in detecting CKD with high accuracy. There is also growing attention toward building models that are not only accurate but also interpretable, so that healthcare providers can trust and act on the predictions.
+
+Activity 4:
+ Social and Economic Importance
+Socially, using predictive models to detect CKD early means that patients can take action sooner — changing their lifestyle, starting medication, and avoiding severe complications. This can greatly enhance their well-being and daily life.
+Economically, the system can help cut down on costly treatments like dialysis and hospitalizations. It eases the pressure on healthcare systems by reducing emergency visits and long-term care costs. Overall, a CKD prediction model has the potential to improve patient care and lower medical expenses.
+
+
+
+
+
+
+
+
+
+
+
+
